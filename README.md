@@ -3,6 +3,10 @@
 
 I specialize in transforming messy supply chain, pharmaceutical, and e-commerce data into clear financial insights. I focus on optimizing inventory turnover, identifying margin leakage, and tracking capital lockup to drive business efficiency.
 
+## 💼 Current Experience
+**CRM Executive & Department Lead | Narayani Auto Motors Pvt. Ltd.**
+Currently leading the customer relationship and tele-sales department. I manage CRM data pipelines, track lead conversion KPIs, and oversee team operations to drive targeted automotive sales and improve customer retention metrics.
+
 ## 🛠 Technical Stack
 * **Database & Querying:** SQL (CTEs, Window Functions, Subqueries, Conditional Aggregation)
 * **Data Visualization & BI:** Power BI, Advanced Excel (Power Query, Pivot Tables)
