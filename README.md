@@ -1,7 +1,7 @@
 # Hi, I'm Kaif Mahaldar
 ### Data Analyst | Inventory & Operational Efficiency
 
-I specialize in transforming messy supply chain, pharmaceutical, and e-commerce data into clear financial insights. I focus on optimizing inventory turnover, identifying margin leakage, and tracking capital lockup to drive business efficiency.
+I specialize in transforming messy supply chain, pharmaceutical, and e-commerce data a into clear financial insights. I focus on optimizing inventory turnover, identifying margin leakage, and tracking capital lockup to drive business efficiency.
 
 ## 💼 Current Experience
 **CRM Executive & Department Lead | Narayani Auto Motors Pvt. Ltd.**
