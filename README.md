@@ -40,4 +40,4 @@ Currently leading the customer relationship and tele-sales department. I manage 
 * **Outcome:** Segmented operating expenses (OPEX) and highlighted revenue variances to pinpoint financial inefficiencies and guide strategic corporate spending.
 
 ---
-📫 **Let's Connect:** www.linkedin.com/in/kaif-mahaldar-18300b333  |  kaifmahaldar5@gmail.com
+📫 **Let's Connect:**   [**Linkedin**](www.linkedin.com/in/kaif-mahaldar-18300b333)      |     **kaifmahaldar5@gmail.com**
