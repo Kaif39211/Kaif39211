@@ -46,4 +46,4 @@ I specialize in transforming messy supply chain, pharmaceutical, and e-commerce 
 * **Outcome:** Segmented operating expenses (OPEX) and highlighted revenue variances to pinpoint financial inefficiencies and guide strategic corporate spending.
 
 ---
-📫 **Let's Connect:**   [**Linkedin**]([Linkedin](https://www.linkedin.com/in/kaifmahaldarofficial)      |     **kaifmahaldar5@gmail.com**
+📫 **Let's Connect:**   [**Linkedin**](https://www.linkedin.com/in/kaifmahaldarofficial)      |     **kaifmahaldar5@gmail.com**
