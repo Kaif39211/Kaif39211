@@ -4,8 +4,14 @@
 I specialize in transforming messy supply chain, pharmaceutical, and e-commerce data a into clear financial insights. I focus on optimizing inventory turnover, identifying margin leakage, and tracking capital lockup to drive business efficiency.
 
 ## 💼 Current Experience
-**CRM Executive & Department Lead | NARAYANI AUTO CENTRE (P) LTD.**
-Currently leading the customer relationship and tele-sales department. I manage CRM data pipelines, track lead conversion KPIs, and oversee team operations to drive targeted automotive sales and improve customer retention metrics.
+
+**Data Process Coordinator | Akasa Clean Energy**
+* **Data Cleaning & QA:** Cleansed and validated 1,000+ daily records, proactively flagging anomalies to guarantee high data integrity across systems.
+* **Data Visualization:** Designed dynamic Google Sheets dashboards, translating complex service metrics into actionable KPIs for senior management.
+* **Operational Analytics:** Analyzed ticket trends and utilized geographic data to strategically route 200+ service requests, optimizing field engineer response times.
+* **Database Management:** Administered a centralized database of 150+ regional dealers to ensure seamless coordination and strict data accuracy.
+* **Process Optimization:** Investigated daily reports to identify operational bottlenecks, resulting in streamlined workflows and improved service delivery.
+
 
 ## 🛠 Technical Stack
 * **Database & Querying:**  SQL (CTEs, Window Functions, Subqueries, Conditional Aggregation)
