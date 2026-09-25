@@ -19,7 +19,7 @@ I specialize in transforming messy supply chain, pharmaceutical, and e-commerce 
 
 
 ## 🛠 Technical Stack
-### 💻 Tech Stack:
+
 
 ![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Microsoft Excel](https://img.shields.io/badge/MICROSOFT%20EXCEL-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
