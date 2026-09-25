@@ -1,6 +1,11 @@
-# Hi, I'm Kaif Mahaldar
-### Data Analyst | Inventory & Operational Efficiency
+<div align="center">
+  <!-- Typing Animation (Wider container to fix cutoff text) -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF66&center=true&vCenter=true&width=700&height=50&lines=Hi%2C+I'm+Kaif+Mahaldar;Business+Analyst+%7C+Data+Analyst;Transforming+Data+into+Business+Insights;Excel+%7C+Power+BI+%7C+SQL+%7C+Python" alt="Typing SVG" />
+  </a>
+</div>
 
+---
 I specialize in transforming messy supply chain, pharmaceutical, and e-commerce data a into clear financial insights. I focus on optimizing inventory turnover, identifying margin leakage, and tracking capital lockup to drive business efficiency.
 
 ## 💼 Current Experience
@@ -14,9 +19,15 @@ I specialize in transforming messy supply chain, pharmaceutical, and e-commerce 
 
 
 ## 🛠 Technical Stack
-* **Database & Querying:**  SQL (CTEs, Window Functions, Subqueries, Conditional Aggregation)
-* **Data Visualization & BI:**  Power BI, Advanced Excel (Power Query, Pivot Tables)
-* **Domain Focus:** Inventory Optimization, Supply Chain Analytics, Retail/E-commerce Operations
+### 💻 Tech Stack:
+
+![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Microsoft Excel](https://img.shields.io/badge/MICROSOFT%20EXCEL-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Power BI](https://img.shields.io/badge/POWER%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![MySQL](https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Microsoft SQL Server](https://img.shields.io/badge/MICROSOFT%20SQL%20SERVER-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![pgAdmin](https://img.shields.io/badge/PGADMIN-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Microsoft Fabric](https://img.shields.io/badge/MICROSOFT%20FABRIC-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 
 ## 📂 Featured Case Studies
 
