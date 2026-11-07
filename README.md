@@ -1,7 +1,7 @@
 <div align="center">
   <!-- Typing Animation (Wider container to fix cutoff text) -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF66&center=true&vCenter=true&width=700&height=50&lines=Hi%2C+I'm+Kaif+Mahaldar;Business+Analyst+%7C+Data+Analyst;Transforming+Data+into+Business+Insights;Excel+%7C+Power+BI+%7C+SQL+%7C+Python" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF66&center=true&vCenter=true&width=700&height=50&lines=Hi%2C+I'm+Kaif+Mahaldar;Transforming+Data+into+Business+Insights;Excel+%7C+Power+BI+%7C+SQL+%7C+Python" alt="Typing SVG" />
   </a>
 </div>
 
