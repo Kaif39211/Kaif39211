@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="80" viewBox="0 0 900 80" role="img" aria-label="Animated trend line divider">
+  <title>Animated trend line divider</title>
+
+  <defs>
+    <linearGradient id="fadeG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#000"/>
+      <stop offset="0.12" stop-color="#fff"/>
+      <stop offset="0.88" stop-color="#fff"/>
+      <stop offset="1"    stop-color="#000"/>
+    </linearGradient>
+    <mask id="fade"><rect width="900" height="80" fill="url(#fadeG)"/></mask>
+
+    <pattern id="grid" width="45" height="20" patternUnits="userSpaceOnUse">
+      <path d="M45 0 L0 0 0 20" fill="none" stroke="#8b949e" stroke-opacity="0.12"/>
+    </pattern>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <path id="trend" d="M0 52 L50 48 L100 54 L150 40 L200 44 L250 32 L300 38 L350 26 L400 34 L450 22 L500 30 L550 24 L600 18 L650 26 L700 16 L750 22 L800 12 L850 18 L900 10"/>
+  </defs>
+
+  <g mask="url(#fade)">
+    <rect width="900" height="80" fill="url(#grid)"/>
+
+    <!-- series B (cyan, quieter) -->
+    <path pathLength="1" fill="none" stroke="#00b3ff" stroke-width="2" stroke-opacity="0.7" stroke-linejoin="round"
+          stroke-dasharray="1" stroke-dashoffset="1"
+          d="M0 66 L50 62 L100 64 L150 58 L200 60 L250 52 L300 56 L350 48 L400 54 L450 44 L500 50 L550 46 L600 42 L650 48 L700 38 L750 44 L800 34 L850 40 L900 32">
+      <animate attributeName="stroke-dashoffset" dur="6s" repeatCount="indefinite" values="1;0;0;1" keyTimes="0;0.65;0.95;1"/>
+      <animate attributeName="opacity" dur="6s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.88;0.95;1"/>
+    </path>
+
+    <!-- series A (green, main) -->
+    <path pathLength="1" fill="none" stroke="#00ff66" stroke-width="2.5" stroke-linejoin="round" filter="url(#glow)"
+          stroke-dasharray="1" stroke-dashoffset="1"
+          d="M0 52 L50 48 L100 54 L150 40 L200 44 L250 32 L300 38 L350 26 L400 34 L450 22 L500 30 L550 24 L600 18 L650 26 L700 16 L750 22 L800 12 L850 18 L900 10">
+      <animate attributeName="stroke-dashoffset" dur="6s" repeatCount="indefinite" values="1;0;0;1" keyTimes="0;0.65;0.95;1"/>
+      <animate attributeName="opacity" dur="6s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.88;0.95;1"/>
+    </path>
+
+    <!-- leading dot with pulse ring -->
+    <g>
+      <circle r="4.5" fill="#f0f6fc" stroke="#00ff66" stroke-width="2"/>
+      <circle r="4" fill="none" stroke="#00ff66" stroke-width="1.5">
+        <animate attributeName="r" dur="1.2s" repeatCount="indefinite" values="4;13"/>
+        <animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" values="0.8;0"/>
+      </circle>
+      <animate attributeName="opacity" dur="6s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.88;0.95;1"/>
+      <animateMotion dur="6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.65;1">
+        <mpath href="#trend"/>
+      </animateMotion>
+    </g>
+  </g>
+</svg>

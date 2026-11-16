@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" role="img" aria-label="Data pipeline: Excel to SQL to Python to Power BI to Insights">
+  <title>Data pipeline: Excel, SQL, Python, Power BI, Insights</title>
+
+  <defs>
+    <clipPath id="card"><rect width="900" height="210" rx="14"/></clipPath>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0f1b26"/>
+    </linearGradient>
+
+    <linearGradient id="flow" x1="0" y1="0" x2="0.5" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#00ff66"/>
+      <stop offset="1" stop-color="#00b3ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1b2430"/>
+    </pattern>
+
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace; }
+    .dash   { stroke-dasharray: 6 6; animation: dash .7s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -12; } }
+    .blink  { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .live   { animation: live 1.6s ease-in-out infinite; }
+    @keyframes live { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="210" fill="url(#bg)"/>
+    <rect width="900" height="210" fill="url(#dots)"/>
+
+    <text x="50" y="34" font-size="12" letter-spacing="2" fill="#8b949e">DATA PIPELINE</text>
+    <circle class="live" cx="792" cy="30" r="4" fill="#00ff66"/>
+    <text x="850" y="34" font-size="11" text-anchor="end" fill="#8b949e">RUNNING</text>
+
+    <!-- connectors -->
+    <g stroke="#3b4350" stroke-width="2">
+      <line class="dash" x1="178" y1="98" x2="209" y2="98"/>
+      <line class="dash" x1="347" y1="98" x2="378" y2="98"/>
+      <line class="dash" x1="516" y1="98" x2="547" y2="98"/>
+      <line class="dash" x1="685" y1="98" x2="716" y2="98"/>
+    </g>
+    <g fill="#6e7681">
+      <polygon points="210,93 218,98 210,103"/>
+      <polygon points="379,93 387,98 379,103"/>
+      <polygon points="548,93 556,98 548,103"/>
+      <polygon points="717,93 725,98 717,103"/>
+    </g>
+
+    <!-- data packets (travel behind the nodes so they look "processed") -->
+    <g filter="url(#glow)">
+      <circle r="5" cy="0" cx="0" fill="#00ff66">
+        <animateMotion dur="6s" begin="0s" repeatCount="indefinite" path="M 50 98 L 850 98"/>
+      </circle>
+      <circle r="5" cy="0" cx="0" fill="#00e0ff">
+        <animateMotion dur="6s" begin="-2s" repeatCount="indefinite" path="M 50 98 L 850 98"/>
+      </circle>
+      <circle r="5" cy="0" cx="0" fill="#00ff66">
+        <animateMotion dur="6s" begin="-4s" repeatCount="indefinite" path="M 50 98 L 850 98"/>
+      </circle>
+    </g>
+
+    <!-- node 1 : Excel -->
+    <rect x="50" y="60" width="124" height="76" rx="10" fill="#0d1117" stroke="#21d07a" stroke-opacity="0.75" stroke-width="1.5"/>
+    <rect x="50" y="60" width="124" height="76" rx="10" fill="#21d07a" fill-opacity="0">
+      <animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" values="0;0;0.35;0;0" keyTimes="0;0.1825;0.2325;0.3525;1"/>
+    </rect>
+    <text x="62" y="80" font-size="11" fill="#6e7681">01</text>
+    <text x="112" y="102" font-size="17" font-weight="700" text-anchor="middle" fill="#21d07a">Excel</text>
+    <text x="112" y="122" font-size="11" text-anchor="middle" fill="#8b949e">raw data</text>
+
+    <!-- node 2 : SQL -->
+    <rect x="219" y="60" width="124" height="76" rx="10" fill="#0d1117" stroke="#ff9f43" stroke-opacity="0.75" stroke-width="1.5"/>
+    <rect x="219" y="60" width="124" height="76" rx="10" fill="#ff9f43" fill-opacity="0">
+      <animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" values="0;0;0.35;0;0" keyTimes="0;0.815;0.865;0.985;1"/>
+    </rect>
+    <text x="231" y="80" font-size="11" fill="#6e7681">02</text>
+    <text x="281" y="102" font-size="17" font-weight="700" text-anchor="middle" fill="#ff9f43">SQL</text>
+    <text x="281" y="122" font-size="11" text-anchor="middle" fill="#8b949e">query &amp; clean</text>
+
+    <!-- node 3 : Python -->
+    <rect x="388" y="60" width="124" height="76" rx="10" fill="#0d1117" stroke="#4b9fff" stroke-opacity="0.75" stroke-width="1.5"/>
+    <rect x="388" y="60" width="124" height="76" rx="10" fill="#4b9fff" fill-opacity="0">
+      <animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" values="0;0;0.35;0;0" keyTimes="0;0.45;0.5;0.62;1"/>
+    </rect>
+    <text x="400" y="80" font-size="11" fill="#6e7681">03</text>
+    <text x="450" y="102" font-size="17" font-weight="700" text-anchor="middle" fill="#4b9fff">Python</text>
+    <text x="450" y="122" font-size="11" text-anchor="middle" fill="#8b949e">analyze &amp; model</text>
+
+    <!-- node 4 : Power BI -->
+    <rect x="557" y="60" width="124" height="76" rx="10" fill="#0d1117" stroke="#f2c811" stroke-opacity="0.75" stroke-width="1.5"/>
+    <rect x="557" y="60" width="124" height="76" rx="10" fill="#f2c811" fill-opacity="0">
+      <animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" values="0;0;0.35;0;0" keyTimes="0;0.085;0.135;0.255;1"/>
+    </rect>
+    <text x="569" y="80" font-size="11" fill="#6e7681">04</text>
+    <text x="619" y="102" font-size="17" font-weight="700" text-anchor="middle" fill="#f2c811">Power BI</text>
+    <text x="619" y="122" font-size="11" text-anchor="middle" fill="#8b949e">visualize</text>
+
+    <!-- node 5 : Insights -->
+    <rect x="726" y="60" width="124" height="76" rx="10" fill="#0d1117" stroke="#00ff66" stroke-opacity="0.85" stroke-width="1.5"/>
+    <rect x="726" y="60" width="124" height="76" rx="10" fill="#00ff66" fill-opacity="0">
+      <animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" values="0;0;0.35;0;0" keyTimes="0;0.72;0.77;0.89;1"/>
+    </rect>
+    <text x="738" y="80" font-size="11" fill="#6e7681">05</text>
+    <text x="788" y="102" font-size="17" font-weight="700" text-anchor="middle" fill="#00ff66">Insights</text>
+    <text x="788" y="122" font-size="11" text-anchor="middle" fill="#8b949e">business impact</text>
+
+    <!-- console line -->
+    <text x="50" y="174" font-size="13" fill="#8b949e"><tspan fill="#00ff66">$</tspan> pipeline.run() <tspan fill="#00ff66">&#10004; insights delivered</tspan></text>
+    <rect class="blink" x="344" y="162" width="8" height="15" fill="#00ff66"/>
+
+    <rect x="0" y="205" width="900" height="5" fill="url(#flow)"/>
+  </g>
+</svg>

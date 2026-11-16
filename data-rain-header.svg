@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Kaif Mahaldar - Data Analyst">
+  <title>Kaif Mahaldar - Data Analyst</title>
+
+  <defs>
+    <clipPath id="card"><rect width="900" height="240" rx="14"/></clipPath>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050a0e"/>
+      <stop offset="1" stop-color="#0a141c"/>
+    </linearGradient>
+
+    <linearGradient id="rain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ff66" stop-opacity="0"/>
+      <stop offset="0.7" stop-color="#00ff66" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#c8ffe0" stop-opacity="1"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ff66"/>
+      <stop offset="1" stop-color="#00e0ff"/>
+    </linearGradient>
+
+    <linearGradient id="flow" x1="0" y1="0" x2="0.5" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#00ff66"/>
+      <stop offset="1" stop-color="#00b3ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="glow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace; }
+    .c { fill: url(#rain); font-size: 15px; animation: fall linear infinite; }
+    @keyframes fall {
+      from { transform: translateY(-210px); }
+      to   { transform: translateY(255px); }
+    }
+    .border { animation: border 3s ease-in-out infinite; }
+    @keyframes border { 0%, 100% { stroke-opacity: .25; } 50% { stroke-opacity: .85; } }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="240" fill="url(#bg)"/>
+
+    <!-- falling data columns -->
+    <g>
+      <text class="c" x="15 15 15 15 15 15 15 15 15 15 15 15"     y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:6s;animation-delay:-1s">101100101101</text>
+      <text class="c" x="45 45 45 45 45 45 45 45 45 45 45 45"     y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:8s;animation-delay:-4s" opacity="0.6">010011010110</text>
+      <text class="c" x="75 75 75 75 75 75 75 75 75 75 75 75"     y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:5.5s;animation-delay:-2s">391725048612</text>
+      <text class="c" x="105 105 105 105 105 105 105 105 105 105 105 105" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:9s;animation-delay:-6s" opacity="0.5">110010110100</text>
+      <text class="c" x="135 135 135 135 135 135 135 135 135 135 135 135" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:7s;animation-delay:-3s">011101001011</text>
+      <text class="c" x="165 165 165 165 165 165 165 165 165 165 165 165" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:6.5s;animation-delay:-5s" opacity="0.7">845026197305</text>
+      <text class="c" x="195 195 195 195 195 195 195 195 195 195 195 195" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:8.5s;animation-delay:-1.5s">100110101001</text>
+      <text class="c" x="225 225 225 225 225 225 225 225 225 225 225 225" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:5s;animation-delay:-4.5s" opacity="0.55">001011010111</text>
+      <text class="c" x="255 255 255 255 255 255 255 255 255 255 255 255" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:7.5s;animation-delay:-2.5s">274916038542</text>
+      <text class="c" x="285 285 285 285 285 285 285 285 285 285 285 285" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:9.5s;animation-delay:-7s" opacity="0.65">110100110010</text>
+      <text class="c" x="315 315 315 315 315 315 315 315 315 315 315 315" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:6s;animation-delay:-3.5s">101011001101</text>
+      <text class="c" x="345 345 345 345 345 345 345 345 345 345 345 345" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:8s;animation-delay:-1s" opacity="0.5">639281740563</text>
+      <text class="c" x="375 375 375 375 375 375 375 375 375 375 375 375" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:5.5s;animation-delay:-5.5s">010110100110</text>
+      <text class="c" x="405 405 405 405 405 405 405 405 405 405 405 405" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:7s;animation-delay:-6.5s" opacity="0.7">100101011010</text>
+      <text class="c" x="435 435 435 435 435 435 435 435 435 435 435 435" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:9s;animation-delay:-2s">957304826171</text>
+      <text class="c" x="465 465 465 465 465 465 465 465 465 465 465 465" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:6.5s;animation-delay:-4s" opacity="0.6">011010011101</text>
+      <text class="c" x="495 495 495 495 495 495 495 495 495 495 495 495" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:8s;animation-delay:-0.5s">110001011010</text>
+      <text class="c" x="525 525 525 525 525 525 525 525 525 525 525 525" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:5s;animation-delay:-3s" opacity="0.55">402816593720</text>
+      <text class="c" x="555 555 555 555 555 555 555 555 555 555 555 555" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:7.5s;animation-delay:-6s">101101010011</text>
+      <text class="c" x="585 585 585 585 585 585 585 585 585 585 585 585" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:6s;animation-delay:-7.5s" opacity="0.7">010011101001</text>
+      <text class="c" x="615 615 615 615 615 615 615 615 615 615 615 615" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:9s;animation-delay:-1.2s">786153024985</text>
+      <text class="c" x="645 645 645 645 645 645 645 645 645 645 645 645" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:8.5s;animation-delay:-5s" opacity="0.5">100110010110</text>
+      <text class="c" x="675 675 675 675 675 675 675 675 675 675 675 675" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:5.5s;animation-delay:-2.8s">011001101011</text>
+      <text class="c" x="705 705 705 705 705 705 705 705 705 705 705 705" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:7s;animation-delay:-4.2s" opacity="0.65">530927614803</text>
+      <text class="c" x="735 735 735 735 735 735 735 735 735 735 735 735" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:6.5s;animation-delay:-6.8s">110101001101</text>
+      <text class="c" x="765 765 765 765 765 765 765 765 765 765 765 765" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:9.5s;animation-delay:-0.8s" opacity="0.6">001110100101</text>
+      <text class="c" x="795 795 795 795 795 795 795 795 795 795 795 795" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:5s;animation-delay:-3.2s">219384650719</text>
+      <text class="c" x="825 825 825 825 825 825 825 825 825 825 825 825" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:8s;animation-delay:-5.8s" opacity="0.55">101010110010</text>
+      <text class="c" x="855 855 855 855 855 855 855 855 855 855 855 855" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:6s;animation-delay:-2.2s">010101011101</text>
+      <text class="c" x="885 885 885 885 885 885 885 885 885 885 885 885" y="16 32 48 64 80 96 112 128 144 160 176 192" style="animation-duration:7.5s;animation-delay:-4.8s" opacity="0.7">674809213546</text>
+    </g>
+
+    <!-- scan line -->
+    <rect x="0" y="0" width="900" height="2" fill="#00ff66" fill-opacity="0.18">
+      <animateTransform attributeName="transform" type="translate" from="0 -4" to="0 244" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- centre panel -->
+    <rect class="border" x="170" y="50" width="560" height="140" rx="12" fill="#050a0e" fill-opacity="0.9" stroke="#00ff66" stroke-width="1.5"/>
+    <text x="450" y="78" font-size="12" letter-spacing="4" text-anchor="middle" fill="#8b949e">[ DATA ANALYST ]</text>
+    <text x="450" y="124" font-size="38" font-weight="700" text-anchor="middle" fill="url(#nameGrad)" filter="url(#glow)">Kaif Mahaldar</text>
+    <text x="450" y="150" font-size="15" text-anchor="middle" fill="#e6edf3">Transforming Data into Business Insights</text>
+    <text x="450" y="174" font-size="14" font-weight="700" text-anchor="middle"><tspan fill="#21d07a">Excel</tspan><tspan fill="#6e7681"> | </tspan><tspan fill="#f2c811">Power BI</tspan><tspan fill="#6e7681"> | </tspan><tspan fill="#ff9f43">SQL</tspan><tspan fill="#6e7681"> | </tspan><tspan fill="#4b9fff">Python</tspan></text>
+
+    <rect x="0" y="235" width="900" height="5" fill="url(#flow)"/>
+  </g>
+</svg>
